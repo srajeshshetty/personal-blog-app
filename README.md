@@ -60,8 +60,8 @@ Blog_web/
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd Blog_web
+git clone https://github.com/srajeshshetty/personal-blog-app.git
+cd personal-blog-app
 ```
 
 ### 2. Install Backend Dependencies
@@ -195,54 +195,6 @@ Content-Type: application/json
 ### Delete a Post
 ```http
 DELETE http://localhost:5000/api/posts/:id
-```
-
-## Interview Questions & Answers
-
-### 1. What is the MERN stack?
-The MERN stack is a collection of technologies used to build full-stack web applications:
-- **MongoDB**: NoSQL database for data storage
-- **Express.js**: Web framework for Node.js
-- **React.js**: Frontend JavaScript library for building user interfaces
-- **Node.js**: JavaScript runtime for server-side development
-
-### 2. What is a REST API?
-REST (Representational State Transfer) API is an architectural style for designing web services. It uses HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources.
-
-### 3. What does useEffect do in React?
-useEffect is a React Hook that allows you to perform side effects in functional components, such as data fetching, subscriptions, or manually changing the DOM. It runs after every render by default.
-
-### 4. How do you send data to backend from React?
-Data can be sent to the backend using HTTP libraries like Axios or fetch API. For example:
-```javascript
-const response = await axios.post('/api/posts', formData);
-```
-
-### 5. What is MongoDB used for?
-MongoDB is a NoSQL document database used for storing and retrieving data. It stores data in flexible, JSON-like documents and is particularly good for applications with changing data requirements.
-
-### 6. What is the difference between GET and POST?
-- **GET**: Retrieves data from the server (read operation)
-- **POST**: Sends data to the server to create new resources (create operation)
-
-### 7. How do you create routes in Express?
-Routes are created using Express router methods:
-```javascript
-app.get('/api/posts', (req, res) => { /* handler */ });
-app.post('/api/posts', (req, res) => { /* handler */ });
-```
-
-### 8. What is a component in React?
-A component is a reusable piece of UI that can accept inputs (props) and return React elements describing what should appear on the screen.
-
-### 9. How does React Router work?
-React Router enables client-side routing in React applications, allowing navigation between different components without page refreshes. It uses URL changes to determine which component to render.
-
-### 10. How do you connect MongoDB with Node.js?
-MongoDB is connected to Node.js using the Mongoose library:
-```javascript
-const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/database-name');
 ```
 
 ## Deployment
