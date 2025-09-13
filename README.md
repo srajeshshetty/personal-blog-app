@@ -13,6 +13,15 @@ A full-stack blog application built with the MERN stack (MongoDB, Express.js, Re
 - ✅ **Form Validation** - Client-side validation for all forms
 - ✅ **Error Handling** - Proper error messages and loading states
 
+## Screenshots
+
+Check out the `screenshots/` directory for visual examples of the application in action!
+
+- **Homepage** - Main blog interface with existing posts
+- **Create Post** - Form for adding new blog posts
+- **Edit Post** - Form for modifying existing posts
+- **Post Detail** - Individual post view with full content
+
 ## Tech Stack
 
 ### Backend

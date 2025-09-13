@@ -100,3 +100,12 @@ Thumbs.db
 
 # MongoDB data
 data/
+
+# Screenshots (keep these in repo)
+# screenshots/
+
+# Unnecessary files
+*.zip
+*.rar
+*.7z
+*.tar.gz
